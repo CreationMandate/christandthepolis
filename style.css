@@ -1,0 +1,381 @@
+/* RESET & BASE STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    background-color: #fdfdfb;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.75;
+  }
+  
+  /* HEADER & LOGO */
+  header {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .site-logo {
+    max-width: 140px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #1c2b39;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  /* NAVIGATION BAR */
+  nav {
+    margin-bottom: 10px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #2a5d9f;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    color: #1a3f76;
+  }
+  
+  /* MAIN CONTENT */
+  main h2 {
+    font-size: 1.6rem;
+    color: #1c2b39;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+  
+  main p {
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+  }
+  
+  /* BLOG POST EXCERPTS (HOME PAGE) */
+  article {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  article h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  
+  article h2 a {
+    color: #1c2b39;
+    text-decoration: none;
+  }
+  
+  article h2 a:hover {
+    color: #2a5d9f;
+  }
+  
+  .post-date {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  /* CONTACT FORM STYLING */
+  .contact-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+    color: #1c2b39;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    font-family: inherit;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    padding: 10px 15px;
+    background-color: #2a5d9f;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #1a3f76;
+  }
+  
+  /* FOOTER */
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #999;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+  
+  /* LINKS IN MAIN TEXT */
+  main a {
+    color: #2a5d9f;
+    text-decoration: underline;
+  }
+  
+  main a:hover {
+    color: #1a3f76;
+  }
+  
+  /* RESPONSIVE LAYOUT */
+  @media (max-width: 600px) {
+    body {
+      padding: 15px;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    nav a {
+      display: inline-block;
+      margin: 6px;
+    }
+  
+    main h2 {
+      font-size: 1.3rem;
+    }
+  
+    main p {
+      font-size: 1rem;
+    }
+  }
+/* RESET & BASE STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    background-color: #fdfdfb;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.75;
+  }
+  
+  /* HEADER & LOGO */
+  header {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .site-logo {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #1c2b39;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  /* NAVIGATION BAR */
+  nav {
+    margin-bottom: 10px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #2a5d9f;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    color: #1a3f76;
+  }
+  
+  /* MAIN CONTENT */
+  main h2 {
+    font-size: 1.6rem;
+    color: #1c2b39;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+  
+  main p {
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+  }
+  
+  /* BLOG POST EXCERPTS (HOME PAGE) */
+  article {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  article h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  
+  article h2 a {
+    color: #1c2b39;
+    text-decoration: none;
+  }
+  
+  article h2 a:hover {
+    color: #2a5d9f;
+  }
+  
+  .post-date {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  /* CONTACT FORM STYLING */
+  .contact-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+    color: #1c2b39;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    font-family: inherit;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    padding: 10px 15px;
+    background-color: #2a5d9f;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #1a3f76;
+  }
+  
+  /* FOOTER */
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #999;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+  
+  /* LINKS IN MAIN TEXT */
+  main a {
+    color: #2a5d9f;
+    text-decoration: underline;
+  }
+  
+  main a:hover {
+    color: #1a3f76;
+  }
+  
+  /* RESPONSIVE LAYOUT */
+  @media (max-width: 600px) {
+    body {
+      padding: 15px;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    nav a {
+      display: inline-block;
+      margin: 6px;
+    }
+  
+    main h2 {
+      font-size: 1.3rem;
+    }
+  
+    main p {
+      font-size: 1rem;
+    }
+  }
+
+.contact-page .site-logo {
+    max-width: 90px;
+}
+    
